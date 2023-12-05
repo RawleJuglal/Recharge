@@ -142,24 +142,24 @@ a:hover{
 @keyframes follow-up {
 	from{
 		visibility: hidden;
-		transform: translateY(1000px);
+		transform: translateY(100%);
 	}
 
     to {
 		visibility: visible;
-        transform: translateY(-16%)
+        transform: translateY(-300px)
     }
 }
 
 @keyframes follow-down {
 	from{
 		visibility: visible;
-		transform: translateY(-16%);
+		transform: translateY(-300px);
 	}
 
     to {
 		visibility: hidden;
-        transform: translateY(1000px)
+        transform: translateY(100%)
     }
 }
 
