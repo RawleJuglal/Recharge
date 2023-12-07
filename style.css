@@ -684,10 +684,6 @@ li span.--lang-percentage{
 		width:3em;
 		font-size:2rem;
 	}
-
-	.--zip-up{
-		animation:follow down 1s ease-in forwards;
-	}
 }
 
 
