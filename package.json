@@ -18,6 +18,7 @@
     "luxon": "^3.4.0",
     "nanoid": "^4.0.2",
     "netlify-cli": "^17.1.0",
+    "node-fetch": "^3.3.2",
     "octokit": "^3.1.1"
   }
 }

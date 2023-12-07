@@ -1,5 +1,6 @@
 import { Octokit } from "octokit" ;
 import { config } from "dotenv";
+import fetch from 'node-fetch'
 config()
 
 
@@ -9,7 +10,8 @@ config()
 //     auth: process.env.Github_Access_API
 //   })
 const app = new Octokit({
-  auth: process.env.GITHUB_API_KEY
+  auth: process.env.GITHUB_API_KEY,
+  request:{fetch}
 });
 
 // client id Iv1.0af1ba8db70127d6
